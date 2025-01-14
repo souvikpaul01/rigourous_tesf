@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--d8167b99-c9b8-4963-8677-b9e6181a76dd",
+    "objects": [
+        {
+            "type": "anomalies",
+            "spec_version": "2.1",
+            "id": "anomalies--57471174-8854-496a-b317-9c012e2f7713",
+            "created": "2024-11-11T13:42:25.436155+00:00",
+            "modified": "2024-11-11T13:42:25.436155+00:00",
+            "error_type": "re-registration",
+            "imsi": "999170000000001",
+            "ip": "192.168.100.129",
+            "trust_score": 0,
+            "revoked": false
+        },
+        {
+            "type": "networkentity",
+            "spec_version": "2.1",
+            "id": "networkentity--56b37ced-e0cb-4f14-803a-e52714e419c5",
+            "created": "2024-11-11T13:42:25.436475+00:00",
+            "modified": "2024-11-11T13:42:25.436475+00:00",
+            "name": "amf",
+            "ip": "172.22.0.10:9091",
+            "revoked": false
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f8c0c9e0-7311-480b-9498-839e3a4c7418",
+            "created": "2024-11-11T13:42:25.436631+00:00",
+            "modified": "2024-11-11T13:42:25.436631+00:00",
+            "relationship_type": "indicates",
+            "source_ref": "anomalies--57471174-8854-496a-b317-9c012e2f7713",
+            "target_ref": "networkentity--56b37ced-e0cb-4f14-803a-e52714e419c5",
+            "revoked": false
+        }
+    ]
+}

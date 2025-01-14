@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+flask
+pandas
+docker
+typing
+stix2
+subprocess
+confluent-kafka
